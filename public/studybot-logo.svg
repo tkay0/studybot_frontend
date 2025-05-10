@@ -1,10 +1,26 @@
-<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
-  <!-- Simple text logo -->
-  <text x="15" y="38" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#4F46E5">StudyBot</text>
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Robot head from the first logo, placed on top -->
+  <g transform="translate(40, 20)">
+    <!-- Robot head background -->
+    <rect x="0" y="0" width="40" height="40" rx="8" fill="#4F46E5" />
+    
+    <!-- Robot eyes -->
+    <circle cx="12" cy="15" r="4" fill="white" />
+    <circle cx="28" cy="15" r="4" fill="white" />
+    <circle cx="12" cy="15" r="2" fill="#4F46E5" />
+    <circle cx="28" cy="15" r="2" fill="#4F46E5" />
+    
+    <!-- Robot antenna -->
+    <rect x="17" y="-5" width="6" height="5" rx="2" fill="#4F46E5" />
+    <circle cx="20" cy="-5" r="3" fill="#6D28D9" />
+    
+    <!-- Robot mouth -->
+    <rect x="10" y="25" width="20" height="6" rx="3" fill="white" />
+    <rect x="12" y="27" width="4" height="2" fill="#4F46E5" />
+    <rect x="18" y="27" width="4" height="2" fill="#4F46E5" />
+    <rect x="24" y="27" width="4" height="2" fill="#4F46E5" />
+  </g>
   
-  <!-- Simple icon -->
-  <rect x="165" y="18" width="20" height="20" rx="4" fill="#4F46E5" />
-  <rect x="170" y="23" width="10" height="2" fill="white" />
-  <rect x="170" y="28" width="10" height="2" fill="white" />
-  <rect x="170" y="33" width="10" height="2" fill="white" />
+  <!-- StudyBot text beneath the robot icon -->
+  <text x="60" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4F46E5" text-anchor="middle">StudyBot</text>
 </svg>
