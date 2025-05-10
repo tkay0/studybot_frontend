@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple text logo -->
+  <text x="15" y="38" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#4F46E5">StudyBot</text>
+  
+  <!-- Simple icon -->
+  <rect x="165" y="18" width="20" height="20" rx="4" fill="#4F46E5" />
+  <rect x="170" y="23" width="10" height="2" fill="white" />
+  <rect x="170" y="28" width="10" height="2" fill="white" />
+  <rect x="170" y="33" width="10" height="2" fill="white" />
+</svg>
