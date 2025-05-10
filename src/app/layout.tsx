@@ -18,7 +18,7 @@ export default function RootLayout({
               <Link href="/" className="hover:underline">Quiz</Link>
               <Link href="/" className="hover:underline">Progress</Link>
             </div>
-            <Link href="/" className="navbar-end hover:underline">Login</Link>
+            <Link href="/login" className="navbar-end hover:underline">Login</Link>
           </nav>
         </header>
 
