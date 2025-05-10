@@ -1,10 +1,14 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (<div className="hero bg-base-200 min-h-screen">
   <div className="hero-content flex-col lg:flex-row">
-    <img
+    <Image
+      alt="Studybot logo"
       src="/studybot-logo.svg"
+      width={350}
+      height={350}
       className="max-w-sm"
     />
     <div>
