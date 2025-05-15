@@ -14,9 +14,9 @@ export default function LoginPage() {
             <label className="label">Password</label>
             <input type="password" className="input" placeholder="Password" />
 
-            <button className="btn btn-primary mt-4">Login</button>
+            <button className="btn btn-warning mt-4">Login</button>
             
-            <div>Don't have an account?<Link href="/login/new" className="link link-hover"><span className="font-bold text-blue-700 ml-2">Sign up now</span></Link></div>
+            <div>Do not have an account?<Link href="/login/new" className="link link-hover"><span className="font-bold text-warning ml-2">Sign up now</span></Link></div>
           </fieldset>
         </div>
       </div>

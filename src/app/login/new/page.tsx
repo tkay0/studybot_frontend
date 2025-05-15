@@ -31,9 +31,9 @@ export default function NewLogin() {
             <label className="label">Email</label>
             <input type="email" className="input" placeholder="Email" />
 
-            <button className="btn btn-primary mt-4">Sign up</button>
+            <button className="btn btn-warning mt-4">Sign up</button>
             
-            <div>Already have an account?<Link href="/login" className="link link-hover"><span className="font-bold text-blue-700 ml-2">Log in</span></Link></div>
+            <div>Already have an account?<Link href="/login" className="link link-hover"><span className="font-bold text-warning ml-2">Log in</span></Link></div>
           </fieldset>
         </div>
       </div>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- Robot Head -->
+  <circle cx="75" cy="75" r="40" fill="white" stroke="black" stroke-width="4"/>
+  <rect x="55" y="70" width="40" height="30" rx="15" fill="black"/>
+  <circle cx="65" cy="85" r="5" fill="white"/>
+  <circle cx="85" cy="85" r="5" fill="white"/>
+  
+  <!-- Robot Ears -->
+  <rect x="30" y="70" width="10" height="20" rx="3" fill="white" stroke="black" stroke-width="2"/>
+  <rect x="110" y="70" width="10" height="20" rx="3" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Speech Bubble -->
+  <ellipse cx="110" cy="40" rx="25" ry="15" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="100" cy="40" r="3" fill="black"/>
+  <circle cx="110" cy="40" r="3" fill="black"/>
+  <circle cx="120" cy="40" r="3" fill="black"/>
+  
+  <!-- StudyBot Text (small) -->
+  <text x="75" y="133" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">STUDY<tspan fill="#F9CB1C">BOT</tspan></text>
+</svg>
