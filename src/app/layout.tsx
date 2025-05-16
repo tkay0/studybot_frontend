@@ -33,7 +33,7 @@ export default function RootLayout({
 
         <main className="flex-grow">{children}</main>
 
-        <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+        <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4 mt-20">
           <aside>
             <p>Copyright © {new Date().getFullYear()} - All right reserved by QuiverTech Solutions</p>
            </aside>
