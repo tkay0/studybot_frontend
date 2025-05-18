@@ -18,7 +18,7 @@ export default function Advert() {
               width={20}
               height={20}
               className="max-w-sm mr-2"
-              />Get Started
+              />Use StudyBot on WhatsApp
             </Link>
           </button>
           <button className="btn btn-warning bg-white text-black border-0">
@@ -29,7 +29,7 @@ export default function Advert() {
               width={20}
               height={20}
               className="max-w-sm mr-2"
-              />Get Started
+              />Use StudyBot on Telegram
             </Link>
           </button>
         </div>
