@@ -1,4 +1,5 @@
 import Activity from "@/components/Activity";
+import ProgressBar from "@/components/ProgressBar";
 import StatCard from "@/components/StatCard"
 
 export default function Dashboard() {
@@ -30,6 +31,11 @@ export default function Dashboard() {
       </div>
 
       <Activity />
+
+      
+      <div className="flex justify-center my-15s text-4xl font-bold">Overall Progress</div>
+
+      <ProgressBar />
 
 
     </>
