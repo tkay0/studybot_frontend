@@ -1,8 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import InfoCard from "@/components/InfoCard";
 import Feedback from "@/components/Feedback";
+import Questions from "@/components/FAQS";
 import Advert from "@/components/WhatsappTelegramAd";
 
 export default function Home() {
@@ -56,6 +55,10 @@ export default function Home() {
     <Advert />
 
 
+    <div className="flex justify-center my-20 text-4xl font-bold">Frequently Asked Questions</div>
+
+
+    <Questions />
 
   </>  
 );

@@ -18,7 +18,7 @@ export default function RootLayout({
               Study<span className="text-warning">Bot</span></Link>
 
             <div className="navbar-center flex gap-4 font-medium">
-              <Link href="/" className="hover:text-warning">Dashboard</Link>
+              <Link href="/dashboard" className="hover:text-warning">Dashboard</Link>
 
               <Link href="/" className="hover:text-warning">Questions</Link>
 

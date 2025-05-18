@@ -1,5 +1,37 @@
+import Activity from "@/components/Activity";
+import StatCard from "@/components/StatCard"
+
 export default function Dashboard() {
   return(
-      <h1 className="text-4xl font-bold">Welcome, Adebayo</h1>
+    <>
+      <div className="p-8">
+
+        <h1 className="text-4xl font-bold mb-10">Welcome, Adebayo</h1>
+
+        <div className="mx-auto mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <StatCard
+            stat = "75%"
+            title = "Overall Progress."
+          />
+          <StatCard
+            stat = "42"
+            title = "Quizes Completed."
+          />
+          <StatCard
+            stat = "8"
+            title = "Subjects."
+          />
+          <StatCard
+            stat = "180"
+            title = "Hours Studied."
+          />
+        </div>
+
+      </div>
+
+      <Activity />
+
+
+    </>
   );
 }
