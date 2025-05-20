@@ -9,7 +9,7 @@ export default function Dashboard() {
 
         <h1 className="text-4xl font-bold mb-10">Welcome, Adebayo</h1>
 
-        <div className="mx-auto mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <StatCard
             stat = "75%"
             title = "Overall Progress."
@@ -33,7 +33,7 @@ export default function Dashboard() {
       <Activity />
 
       
-      <div className="flex justify-center my-15s text-4xl font-bold">Overall Progress</div>
+      <div className="flex justify-center my-5 text-4xl font-bold">Overall Progress</div>
 
       <ProgressBar />
 

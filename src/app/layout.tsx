@@ -20,11 +20,10 @@ export default function RootLayout({
             <div className="navbar-center flex gap-4 font-medium">
               <Link href="/dashboard" className="hover:text-warning">Dashboard</Link>
 
-              <Link href="/" className="hover:text-warning">Questions</Link>
+              <Link href="/Pasco" className="hover:text-warning">Questions</Link>
 
               <Link href="/" className="hover:text-warning">Quiz</Link>
 
-              <Link href="/" className="hover:text-warning">Progress</Link>
             </div>
             <Link href="/login" className="navbar-end"><button className="btn btn-warning text-black">Login</button></Link>
           </nav>
