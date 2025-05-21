@@ -1,7 +1,7 @@
 export default function WasscePastQuestionsPage() {
   return (
     <div className="min-h-screen bg-base-200">
-          <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8">
         
 
         <h1 className="text-4xl font-bold mb-8">WASSCE Past Questions</h1>
