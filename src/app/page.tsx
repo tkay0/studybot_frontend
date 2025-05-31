@@ -49,13 +49,14 @@ export default function Home() {
     </div>
     
 
-    <div className="flex justify-center my-20 text-4xl font-bold">Takek StudyBot Anywhere</div>
+    <div className="flex justify-center text-4xl font-bold items-center py-20">Take StudyBot Anywhere</div>
 
 
     <Advert />
 
 
-    <div className="flex justify-center my-20 text-4xl font-bold">Frequently Asked Questions</div>
+    <div className="flex justify-center text-4xl font-bold items-center py-20">Frequently Asked Questions
+    </div>
 
 
     <Questions />
