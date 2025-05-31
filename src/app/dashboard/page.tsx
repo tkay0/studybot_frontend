@@ -7,7 +7,7 @@ export default function Dashboard() {
     <>
       <div className="p-8">
 
-        <h1 className="text-4xl font-bold mb-10">Welcome, Adebayo</h1>
+        <h1 className="text-4xl font-bold mb-10">Welcome, Eastwood</h1>
 
         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <StatCard
