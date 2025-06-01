@@ -8,8 +8,11 @@ export default function NewLogin() {
           <fieldset className="fieldset">
             <legend className="fieldset-legend text-2xl">Create your account</legend>
 
-            <label className="label">Full Name</label>
-            <input name="name" type="text" className="input" placeholder="Your Name" />
+            <label className="label">First Name</label>
+            <input name="fname" type="text" className="input" placeholder="Your First Name" />
+
+            <label className="label">Last Name</label>
+            <input name="lname" type="text" className="input" placeholder="Your Last Name" />
 
             <label className="label">Educational Level</label>
             <select defaultValue="Educational Level" className="select">
