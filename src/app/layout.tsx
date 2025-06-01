@@ -16,7 +16,8 @@ export default function RootLayout({
 
           <nav className="navbar h-18 bg-white text-black shadow-sm">
             <Link href="/" className="navbar-start hover:opacity-60 font-bold text-2xl">
-              Study<span className="text-transparent bg-clip-text bg-gradient-to-r from bg-yellow-400 to-orange-500">Bot</span></Link>
+              Study<span className="text-transparent bg-clip-text bg-gradient-to-r from bg-yellow-400 to-orange-500">Bot</span>
+            </Link>
 
             <div className="navbar-center flex gap-4 font-medium">
               <Link href="/dashboard" className="hover:text-warning">Dashboard</Link>

@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Advert() {
   return (
-    <div className="hero bg-amber-50 h-95">
-      <div className="hero-content flex-col lg:flex-row">
+    <div className="hero bg-amber-50">
+      <div className="hero-content flex-col lg:flex-row py-25">
         <div>
           <h1 className="text-5xl font-bold">Studybot is now on <span className="text-transparent bg-clip-text bg-gradient-to-r from bg-yellow-400 to-orange-500">WhatsApp and Telegram</span></h1>
           <p className="py-6">
